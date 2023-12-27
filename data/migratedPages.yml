@@ -85,6 +85,9 @@ Blocks:
 Bug_triage:
 - filePath: "/general/development/process/triage.md"
   slug: "/general/development/process/triage"
+Cache_API:
+- filePath: "/docs/apis/subsystems/muc/index.md"
+  slug: "/docs/apis/subsystems/muc/"
 Calendar_API:
 - filePath: "/docs/apis/core/calendar/index.md"
   slug: "/docs/apis/core/calendar/"
@@ -173,7 +176,7 @@ Debugging_network_requests_in_the_Moodle_App:
 - filePath: "/general/app/development/network-debug.md"
   slug: "/general/app/development/network-debug"
 Deprecation:
-- filePath: "/general/development/policies/deprecation.md"
+- filePath: "/general/development/policies/deprecation/index.md"
   slug: "/general/development/policies/deprecation"
 Designing_usable_forms:
 - filePath: "/general/development/policies/designing-usable-forms.md"

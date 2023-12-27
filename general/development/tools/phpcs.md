@@ -4,7 +4,6 @@ tags:
   - coding style
   - policies
   - tools
-sidebar_position: 1
 ---
 
 import { Since } from '@site/src/components';
@@ -23,6 +22,7 @@ We recommend use of the `moodle-extra` standard, particularly when writing new c
 The recommended method of installation is via the global composer command:
 
 ```console
+composer global config minimum-stability dev
 composer global require moodlehq/moodle-cs
 ```
 
