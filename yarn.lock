@@ -1725,6 +1725,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.23.5":
+  version: 7.23.6
+  resolution: "@babel/runtime@npm:7.23.6"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 1a8eaf3d3a103ef5227b60ca7ab5c589118c36ca65ef2d64e65380b32a98a3f3b5b3ef96660fa0471b079a18b619a8317f3e7f03ab2b930c45282a8b69ed9a16
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.12.7, @babel/template@npm:^7.18.10, @babel/template@npm:^7.20.7, @babel/template@npm:^7.3.3":
   version: 7.20.7
   resolution: "@babel/template@npm:7.20.7"
@@ -3509,11 +3518,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:^5.10.16":
-  version: 5.11.0
-  resolution: "@mui/icons-material@npm:5.11.0"
+"@mui/icons-material@npm:^5.14.19":
+  version: 5.15.1
+  resolution: "@mui/icons-material@npm:5.15.1"
   dependencies:
-    "@babel/runtime": ^7.20.6
+    "@babel/runtime": ^7.23.5
   peerDependencies:
     "@mui/material": ^5.0.0
     "@types/react": ^17.0.0 || ^18.0.0
@@ -3521,7 +3530,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 764c1185b3432f0228f3c5217b0e218b10f106fa96d305dfc62c0ef5afd2a7a087b0d664fd0a8171282e195c18d3ee073d5f037901a2bed1a1519a70fbb0501c
+  checksum: e769b2f6fecfd92721b182e0d6569a9950fd44d88cc7b3bd6ac5cc77d6085c26316093c9cdb750b456ff6860e47a1b6e6e749e284ecdc6b50fad659c9cb75818
   languageName: node
   linkType: hard
 
@@ -7744,7 +7753,7 @@ __metadata:
     "@emotion/react": ^11.10.5
     "@emotion/styled": ^11.10.5
     "@mdx-js/react": ^1.6.22
-    "@mui/icons-material": ^5.10.16
+    "@mui/icons-material": ^5.14.19
     "@mui/material": ^5.10.16
     "@tsconfig/docusaurus": ^1.0.6
     "@types/core-js": ^2.5.5
@@ -14684,6 +14693,13 @@ __metadata:
   version: 0.13.11
   resolution: "regenerator-runtime@npm:0.13.11"
   checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.1
+  resolution: "regenerator-runtime@npm:0.14.1"
+  checksum: 9f57c93277b5585d3c83b0cf76be47b473ae8c6d9142a46ce8b0291a04bb2cf902059f0f8445dcabb3fb7378e5fe4bb4ea1e008876343d42e46d3b484534ce38
   languageName: node
   linkType: hard
 
